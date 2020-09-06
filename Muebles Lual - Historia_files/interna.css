@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background-image: url(../images/BackFinal.jpg);
+	margin:0; padding:0;
+	font-family:Trebuchet MS;
+	font-size:12px;
+	}
+	
+div, span, ul, li, a, p, h1, h2, h3, h4, h5 {
+	margin:0;
+	padding:0;
+}
+ul, li { list-style-type:none; margin:0; padding:0;}
+a { text-decoration:none; margin:0; padding:0;  }
+html { margin:0; padding:0;}
+
+img { border:0;}
+
+	#sitecontainer {
+	width:1024px;
+	height:568px;
+	margin:auto;
+	}
+	
+	#top { width:1024px; height:150px; margin: auto; float:left; background-image:url(../images/SombraMenu.png)}
+	
+	#centrado { width:780px; height:140px; margin:auto;} 
+	
+		#historia { width: 128px; height: 23px; float:left; margin: 75px 66px 0 96px;}
+		#logo { float:left; width:217px; height:137px;}
+		#contacto { float:left; height:23px; width:143px; margin: 74px 0 0 61px;}
+	
+	#content {
+		width:935px;
+		height:442px;
+		background-image: url(../images/backVERFinal.png); background-repeat:no-repeat;
+		margin: 25px 0 0 42px;
+		float:left;
+		clear:both;}
+		
+		
+		
+		#navbar { width:650px; height:25px; float:left; margin: 25px 0 0 270px; font-family: Trebuchet MS; font-size:18px; 
+	 }
+		
+		#navbar ul { }
+		
+		#navbar li { display:inline; }
+		
+		#navbar li a { padding:3px 10px; color: #FFF; }
+		
+		#navbar li a:hover { color: #333; }
+		
+		#logofb {
+			position:absolute;
+			top:615px;
+			left:50%;
+			margin:0px 0 0 300px;
+			}
+		#logoreelax {
+			position:absolute;
+			top:615px;
+			left:50%;
+			margin:15px 0 0 170px;
+			}
+			
+		#text { width:730px; height:50px; float:left; margin: 20px 0 0 170px; font-size:12px;}
+		
+		#text-interna2 { width:620px; height:270px; float:left; margin: 20px 20px 0 260px; font-size:12px;}
+		
+		#formulario { width: 580px; height:340px; margin: 0px 0 0 0;}
+		
+		#images { width:620px; height:290px; float:left; margin: 30px 0 0 270px; background-color:#FFFFFF; text-decoration:strong; font-size:19px }
+		
+		#images ul { margin: 10px 0 0 35px;}
+		
+		#images li { display:inline; float:left; margin:5px 5px 5px 5px;}
+		
+		#images li a { }
+		
+		#texto-vertical { position:absolute; top:180px; left:50%; margin-left:-380px;}
